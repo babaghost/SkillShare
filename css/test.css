@@ -1,0 +1,28 @@
+body{
+background-color: #b4b4b4;
+}
+h1{
+font-size: 50px;
+color:blueviolet;
+}
+h2{
+font-size: 60px;
+color:red;
+}
+.yellow{
+font-size: 40px;
+color: yellow;
+}
+.upper{
+text-transform: lowercase;
+text-decoration: wavy;
+
+}
+.upper.yellow{
+color: #bdbda5fb;
+}
+span{
+color: #dadabd;
+text-decoration-line: underline;
+text-align: center;
+}
