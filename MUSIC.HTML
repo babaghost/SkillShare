@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baba's Music</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F3o85fZJZjAaiOMcBY4%2Fgiphy.gif&f=1&nofb=1&ipt=15c241dbcf0358cbb4b9320edf6d1c59f23346c00a809cbbdef5abe563dffda1&ipo=images');
+            background-size: cover;
+            background-position: top left;
+            height: 200px;
+            width: 100%;
+            position: relative;
+        }
+
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .download-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .download-list li {
+            margin: 20px 0;
+        }
+
+        .download-list a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .download-list i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Baba's Music & Stuff</h1>
+    </header>
+    <ul class="download-list">
+        <li><a href="beats/Sudden Haze.wav"><i class="fas fa-file-pdf"></i>Sudden Haze <b>$25</b></a></li>
+        <audio controls>
+            <source src="beats/Sudden Haze.wav" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <li><a href=""><i class="fas fa-file-archive"></i>Believe Me <b>$10</b></a></li>
+        <audio controls>
+            <source src="beats/BELIEVE ME.wav" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <li><img src="img/windy city.png" width="50px;"><a href="hellcat.html"><i class="fas fa-file-image"></i><br>HELLCAT </a></li>
+        
+    </ul>
+</body>
+</html>
